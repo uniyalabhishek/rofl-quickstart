@@ -32,17 +32,17 @@ deployments:
           min_tcb_evaluation_data_number: 18
           tdx: {}
       enclaves:
-        - id: +QyI4p2m2xIe3lI4GcwNgt40FKwkV3Johvs8jcWCBGsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        - id: eUllIfCsK9xbSoVmG/lfT1fp0wUU8zIIM8hWgvGPSkoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: ihG5+ULOHX8qpvCPcqD/D0O6t9utS+18kS0foFB6S08AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+        - id: MEhL9nfisOSt0S5/RWBg/boSbxcngfiIKTZ6f885b1UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
       endorsements:
         - any: {}
       fees: endorsing_node
       max_expiration: 3
     secrets:
       - name: TOKEN
-        value: pGJwa1ggrkHwEQGxpwYDAIbprvO+kOKXbQ7qTxAmam5k6tZrrwpkbmFtZVVocss7mFhalqNS8CMIREq15EW8ZUFlbm9uY2VPKCB2QAZikhjcgOiFmEfoZXZhbHVlWD5pIYzbR87U8RRZ+yPKIKFYiZziScX04u+/r5WZ5Lub4z2Wn0l/xZEpUZa6B8KnPFuOnMUx1D8ssr96wutzMg==
+        value: pGJwa1ggEtHykcS3TC3vyzVxrXVUltFSfXqHFT3L7MmW8sb0BUdkbmFtZVWNDX9I+jz1URVL4PjodgKuf5mAVZJlbm9uY2VPyf9FhEDBZkijuCoyUvQrZXZhbHVlWD6jWSRZndeJgK43UZkXjlLPLoH/TgGJAH69ZW9F0rY9ltiU2U3IXpjbQZqkUKqxzmoE4imYq4sVPjVzUhURjA==
     machines:
       default:
         provider: oasis1qp2ens0hsp7gh23wajxa4hpetkdek3swyyulyrmz
         offer: playground_short
-        id: "0000000000000222"
+        id: "0000000000000223"
