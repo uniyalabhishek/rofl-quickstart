@@ -1,0 +1,7 @@
+services:
+  python-telegram-bot:
+    build: .
+    image: docker.io/uniyalabhishek/demo-rofl-tgbot
+    platform: linux/amd64
+    environment:
+      - TOKEN=${TOKEN}

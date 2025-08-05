@@ -1,0 +1,17 @@
+*.orc
+*.env.local
+# Virtual environments
+my_env/
+venv/
+.env/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+
+# macOS system files
+.DS_Store
+
+# IDE / editor settings
+.vscode/
+.idea/
